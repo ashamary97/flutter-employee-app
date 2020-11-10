@@ -56,7 +56,7 @@ class Home  extends StatelessWidget {
               ),
               SizedBox(height: 20.0,),
               RaisedButton(
-                color: Colors.green,
+                color: Colors.blue,
                 onPressed: (){
                   String getname=ename.text;
                   String getcode=ecode.text;
@@ -68,7 +68,7 @@ class Home  extends StatelessWidget {
                   print(getsal);
 
               },
-              child: Text("Submit"),
+              child: Text("SUBMIT"),
               )
             ],
           ),
