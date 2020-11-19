@@ -1,3 +1,4 @@
+import 'package:employeeapp/screens/employeeapp.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
@@ -14,7 +15,7 @@ class Home  extends StatelessWidget {
           backgroundColor: Colors.green,
         
         ),
-        body:
+        body: EmployeeApp()
       ),
     );
   }
